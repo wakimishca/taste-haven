@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reservations - Taste Haven</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Taste Haven Restaurant</h1>
+    <p>Where every bite feels like home</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="history.html">History</a>
+    <a href="contact.html">Contact</a>
+    <a href="reservations.html">Reservation</a>
+  </nav>
+
+  <main class="form-section">
+    <section class="reservation-container">
+      <h2>Reserve a Table</h2>
+      <p>Please fill out the form below to make a reservation. We'll confirm it with you as soon as possible.</p>
+
+      <form action="https://formsubmit.co/tastehavenresto@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="thankyou.html">
+        
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="date">Reservation Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required />
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required />
+
+        <label for="notes">Special Requests:</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Any allergies, seating preferences, or other notes..."></textarea>
+
+        <button type="submit">Book Reservation</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Taste Haven Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
