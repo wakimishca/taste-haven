@@ -360,3 +360,7 @@ form input[type="submit"]:hover {
 .thankyou-links .button:hover {
   background-color: #a52a2a;
 }
+
+h1 {
+font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
