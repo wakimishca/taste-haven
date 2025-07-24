@@ -364,3 +364,31 @@ form input[type="submit"]:hover {
 h1 {
 font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+	margin: 40px auto; 
+  width: fit-content;
+  gap: 40px;
+}
+
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+
+.nav-titles {
+  display: flex;
+  gap: 30px;
+}
