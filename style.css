@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 .hero {
-  background: url("bg.png") center/cover no-repeat;
+  background: url("bg.jpg") center/cover no-repeat;
   height: 400px;
   display: flex;
   align-items: center;
