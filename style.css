@@ -210,6 +210,7 @@ form input[type="email"],
 form input[type="tel"],
 form input[type="date"],
 form input[type="time"],
+form input[type="place"],
 form input[type="number"] {
   width: 100%;
   padding: 0.5rem;
