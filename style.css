@@ -234,7 +234,7 @@ form input[type="submit"]:hover {
 }
 
 /* About-Us Improvements */
-#about, #mission, #team {
+#about, #mission, #team, #founder {
   background-color: #fff;
   margin: 2rem auto;
   max-width: 800px;
@@ -243,14 +243,14 @@ form input[type="submit"]:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-#about h2, #mission h2, #team h2 {
+#about h2, #mission h2, #team h2 #founder h2 {
   color: #b22222;
   margin-bottom: 1rem;
   font-size: 1.8rem;
   text-align: center;
 }
 
-#about p, #mission p, #team p {
+#about p, #mission p, #team p, #founder p {
   font-size: 1.1rem;
   line-height: 1.8;
   text-align: justify;
